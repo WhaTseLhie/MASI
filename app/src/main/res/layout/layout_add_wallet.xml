@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="330dp"
+    android:background="@color/back_color"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:gravity="center_horizontal"
+        android:background="@color/blue"
+        android:text="Add MASI-Wallet"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:id="@+id/textView8"/>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:inputType="numberDecimal"
+        android:maxLength="10"
+        android:hint="Amount"
+        android:padding="10dp"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:text="Submit"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:background="@drawable/ic_button_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/button2"
+            android:text="Cancel"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/ic_button_cancel"
+            android:layout_weight="1"
+            android:layout_margin="1dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

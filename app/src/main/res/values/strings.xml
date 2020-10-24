@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Boyboy MASI</string>
+    <string name="title_activity_masi">MasiActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="add">ADD</string>
+    <string name="peso">\u20B1</string>
+
+    <string-array name="category">
+        <item>Category</item>
+        <item>Helmets</item>
+        <item>Covers</item>
+        <item>Mirrors</item>
+        <item>Wheels</item>
+        <item>Tires</item>
+    </string-array>
+
+    <string-array name="color">
+        <item>Color</item>
+        <item>Black</item>
+        <item>White</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_customer">M.A.S.I</string>
+    <string name="action_settings">Settings</string>
+</resources>
